@@ -1,0 +1,26 @@
+/* Center the login card */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #3f51b5, #5c6bc0);
+  color: white;
+}
+
+/* Style the card */
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* Full-width fields and buttons */
+.full-width {
+  width: 100%;
+  margin-bottom: 16px;
+}
